@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+logging:
+  config: classpath:logback-spring.xml
+
+tableau:
+  ip: 192.168.8.149 #Tableau Server的地址
+  site_id:          #站点ID
+  api_version: 3.7  #Rest Api的版本， TableauServer版本与RestApi版本的关系: https://help.tableau.com/v2019.4/api/rest_api/en-us/REST/rest_api_concepts_versions.htm
